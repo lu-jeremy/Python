@@ -1,0 +1,23 @@
+import cv2
+import numpy as np
+
+img = np.zeros((512,512,3),np.uint8)
+img = cv2.circle(img,(40,100),33, (255,255,255),-1)
+img = cv2.line(img, (80, 80), (80,160), (255,255,255),5)
+img = cv2.ellipse(img, (80,100), (20,30), 270, 0,180,(255,255,255),-1)
+img = cv2.line(img, (130,80), (160,80), (255,255,255),5)
+img = cv2.line(img,(130,80), (130,160), (255,255,255),5)
+img = cv2.line(img, (130,120), (160,120),(255,255,255),5)
+img = cv2.line(img,(130,160), (160, 160), (255,255,255),5)
+pts = np.array([[180,160],[180,80]],np.int32)
+img = cv2.polylines(img,[pts],True, (255,255,255))
+pts = np.array([[240,160],[240,80]], np.int32)
+img = cv2.polylines(img,[pts],True, (255,255,255))
+pts = np.array([[180,80],[240,160]],np.int32)
+img = cv2.polylines(img,[pts],True, (255,255,255))
+img = cv2.line(img, (260,80), (300,80),(255,255,255),5)
+img = cv2.line(img,(260,80), (260,160), (255,255,255),5)
+img = cv2.line(img, (260,160), (300,160),(255,255,255),5)
+img = cv2.line(img, (320,80), (340,160), (255,255,255),5)
+img = cv2.line(img, (340,160), (360, 80), (255,255,255),5)
+cv2.imshow('',img) 

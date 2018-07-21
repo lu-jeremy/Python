@@ -1,0 +1,6 @@
+def hi():
+    print("Hi")
+    print("Hello")
+    print("How are you doing")
+    print("I don't know.")
+hi()
