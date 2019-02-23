@@ -1,0 +1,14 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "/Users/Jeremy/Desktop/C++/SDL/BasicGame/BasicGame/BasicGame"
+		}
+	],
+	"settings": {
+		"git.ignoreLimitWarning": true,
+		"python.pythonPath": "/Library/Frameworks/Python.framework/Versions/3.6/bin/python3"
+	}
+}

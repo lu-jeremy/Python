@@ -1,0 +1,208 @@
+DEBUG:root:Created database
+DEBUG:root:Created table
+DEBUG:root:insert into player (player_name,score) values ('runner','0');
+DEBUG:root:Inserted information
+DEBUG:root:Updated table
+DEBUG:root:('Person1', 1000, 100000, 123890)
+DEBUG:root:('runner', 1, None, None)
+DEBUG:root:Read table
+DEBUG:root:Updated table
+DEBUG:root:('Person1', 1000, 100000, 123890)
+DEBUG:root:('runner', 2, None, None)
+DEBUG:root:Read table
+DEBUG:root:Updated table
+DEBUG:root:('Person1', 1000, 100000, 123890)
+DEBUG:root:('runner', 3, None, None)
+DEBUG:root:Read table
+DEBUG:root:Updated table
+DEBUG:root:('Person1', 1000, 100000, 123890)
+DEBUG:root:('runner', 4, None, None)
+DEBUG:root:Read table
+DEBUG:root:Updated table
+DEBUG:root:('Person1', 1000, 100000, 123890)
+DEBUG:root:('runner', 5, None, None)
+DEBUG:root:Read table
+DEBUG:root:Updated table
+DEBUG:root:('Person1', 1000, 100000, 123890)
+DEBUG:root:('runner', 6, None, None)
+DEBUG:root:Read table
+DEBUG:root:Updated table
+DEBUG:root:('Person1', 1000, 100000, 123890)
+DEBUG:root:('runner', 7, None, None)
+DEBUG:root:Read table
+DEBUG:root:Updated table
+DEBUG:root:('Person1', 1000, 100000, 123890)
+DEBUG:root:('runner', 8, None, None)
+DEBUG:root:Read table
+DEBUG:root:Updated table
+DEBUG:root:('Person1', 1000, 100000, 123890)
+DEBUG:root:('runner', 9, None, None)
+DEBUG:root:Read table
+DEBUG:root:Updated table
+DEBUG:root:('Person1', 1000, 100000, 123890)
+DEBUG:root:('runner', 10, None, None)
+DEBUG:root:Read table
+DEBUG:root:Updated table
+DEBUG:root:('Person1', 1000, 100000, 123890)
+DEBUG:root:('runner', 11, None, None)
+DEBUG:root:Read table
+DEBUG:root:Updated table
+DEBUG:root:('Person1', 1000, 100000, 123890)
+DEBUG:root:('runner', 12, None, None)
+DEBUG:root:Read table
+DEBUG:root:Updated table
+DEBUG:root:('Person1', 1000, 100000, 123890)
+DEBUG:root:('runner', 13, None, None)
+DEBUG:root:Read table
+DEBUG:root:Updated table
+DEBUG:root:('Person1', 1000, 100000, 123890)
+DEBUG:root:('runner', 14, None, None)
+DEBUG:root:Read table
+DEBUG:root:Updated table
+DEBUG:root:('Person1', 1000, 100000, 123890)
+DEBUG:root:('runner', 15, None, None)
+DEBUG:root:Read table
+DEBUG:root:Updated table
+DEBUG:root:('Person1', 1000, 100000, 123890)
+DEBUG:root:('runner', 16, None, None)
+DEBUG:root:Read table
+DEBUG:root:Updated table
+DEBUG:root:('Person1', 1000, 100000, 123890)
+DEBUG:root:('runner', 17, None, None)
+DEBUG:root:Read table
+DEBUG:root:Created database
+DEBUG:root:create table if not exists player(player_name STRING,score INTEGER);
+DEBUG:root:Created table
+DEBUG:root:insert into player (player_name,score) values ('runner','0');
+DEBUG:root:Inserted information
+DEBUG:root:Updated table
+DEBUG:root:('Person1', 1000, 100000, 123890)
+DEBUG:root:('runner', 1, None, None)
+DEBUG:root:Read table
+DEBUG:root:Updated table
+DEBUG:root:('Person1', 1000, 100000, 123890)
+DEBUG:root:('runner', 2, None, None)
+DEBUG:root:Read table
+DEBUG:root:Updated table
+DEBUG:root:('Person1', 1000, 100000, 123890)
+DEBUG:root:('runner', 3, None, None)
+DEBUG:root:Read table
+DEBUG:root:Updated table
+DEBUG:root:('Person1', 1000, 100000, 123890)
+DEBUG:root:('runner', 4, None, None)
+DEBUG:root:Read table
+DEBUG:root:Updated table
+DEBUG:root:('Person1', 1000, 100000, 123890)
+DEBUG:root:('runner', 5, None, None)
+DEBUG:root:Read table
+DEBUG:root:Updated table
+DEBUG:root:('Person1', 1000, 100000, 123890)
+DEBUG:root:('runner', 6, None, None)
+DEBUG:root:Read table
+DEBUG:root:Updated table
+DEBUG:root:('Person1', 1000, 100000, 123890)
+DEBUG:root:('runner', 7, None, None)
+DEBUG:root:Read table
+DEBUG:root:Created database
+DEBUG:root:create table if not exists player(player_name STRING,score INTEGER);
+DEBUG:root:Created table
+DEBUG:root:insert into player (player_name,score) values ('runner','0');
+DEBUG:root:Inserted information
+DEBUG:root:Created database
+DEBUG:root:create table if not exists player(player_name STRING,score INTEGER);
+DEBUG:root:Created table
+DEBUG:root:insert into player (player_name,score) values ('runner','0');
+DEBUG:root:Inserted information
+DEBUG:root:Updated table
+DEBUG:root:('Person1', 1000, 100000, 123890)
+DEBUG:root:('runner', 1, None, None)
+DEBUG:root:Read table
+DEBUG:root:Updated table
+DEBUG:root:('Person1', 1000, 100000, 123890)
+DEBUG:root:('runner', 2, None, None)
+DEBUG:root:Read table
+DEBUG:root:Updated table
+DEBUG:root:('Person1', 1000, 100000, 123890)
+DEBUG:root:('runner', 3, None, None)
+DEBUG:root:Read table
+DEBUG:root:Updated table
+DEBUG:root:('Person1', 1000, 100000, 123890)
+DEBUG:root:('runner', 4, None, None)
+DEBUG:root:Read table
+DEBUG:root:Created database
+DEBUG:root:create table if not exists player(player_name STRING,score INTEGER);
+DEBUG:root:Created table
+DEBUG:root:insert into player (player_name,score) values ('runner','0');
+DEBUG:root:Inserted information
+DEBUG:root:Updated table
+DEBUG:root:('Person1', 1000, 100000, 123890)
+DEBUG:root:('runner', 1, None, None)
+DEBUG:root:Read table
+DEBUG:root:Updated table
+DEBUG:root:('Person1', 1000, 100000, 123890)
+DEBUG:root:('runner', 2, None, None)
+DEBUG:root:Read table
+DEBUG:root:Updated table
+DEBUG:root:('Person1', 1000, 100000, 123890)
+DEBUG:root:('runner', 3, None, None)
+DEBUG:root:Read table
+DEBUG:root:Updated table
+DEBUG:root:('Person1', 1000, 100000, 123890)
+DEBUG:root:('runner', 4, None, None)
+DEBUG:root:Read table
+DEBUG:root:Updated table
+DEBUG:root:('Person1', 1000, 100000, 123890)
+DEBUG:root:('runner', 5, None, None)
+DEBUG:root:Read table
+DEBUG:root:Updated table
+DEBUG:root:('Person1', 1000, 100000, 123890)
+DEBUG:root:('runner', 6, None, None)
+DEBUG:root:Read table
+DEBUG:root:Updated table
+DEBUG:root:('Person1', 1000, 100000, 123890)
+DEBUG:root:('runner', 7, None, None)
+DEBUG:root:Read table
+DEBUG:root:Created database
+DEBUG:root:create table if not exists player(player_name STRING,score INTEGER);
+DEBUG:root:Created table
+DEBUG:root:insert into player (player_name,score) values ('runner','0');
+DEBUG:root:Inserted information
+DEBUG:root:Updated table
+DEBUG:root:('Person1', 1000, 100000, 123890)
+DEBUG:root:('runner', 1, None, None)
+DEBUG:root:Read table
+DEBUG:root:Updated table
+DEBUG:root:('Person1', 1000, 100000, 123890)
+DEBUG:root:('runner', 2, None, None)
+DEBUG:root:Read table
+DEBUG:root:Updated table
+DEBUG:root:('Person1', 1000, 100000, 123890)
+DEBUG:root:('runner', 3, None, None)
+DEBUG:root:Read table
+DEBUG:root:Created database
+DEBUG:root:create table if not exists player(player_name STRING,score INTEGER);
+DEBUG:root:Created table
+DEBUG:root:insert into player (player_name,score) values ('runner','0');
+DEBUG:root:Inserted information
+DEBUG:root:Created database
+DEBUG:root:create table if not exists player(player_name STRING,score INTEGER);
+DEBUG:root:Created table
+DEBUG:root:insert into player (player_name,score) values ('runner','0');
+DEBUG:root:Inserted information
+DEBUG:root:Created database
+DEBUG:root:create table if not exists player(player_name STRING,score INTEGER);
+DEBUG:root:Created table
+DEBUG:root:insert into player (player_name,score) values ('runner','0');
+DEBUG:root:Inserted information
+DEBUG:root:Updated table
+DEBUG:root:('Person1', 1000, 100000, 123890)
+DEBUG:root:('runner', 1, None, None)
+DEBUG:root:Read table
+DEBUG:root:Updated table
+DEBUG:root:('Person1', 1000, 100000, 123890)
+DEBUG:root:('runner', 2, None, None)
+DEBUG:root:Read table
+DEBUG:root:Updated table
+DEBUG:root:('Person1', 1000, 100000, 123890)
+DEBUG:root:('runner', 3, None, None)
+DEBUG:root:Read table

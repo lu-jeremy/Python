@@ -1,0 +1,61 @@
+{%extends "bootstrap/base.html"%}
+
+{%	block title %}
+You
+{%endblock%}
+
+{% block scripts %}
+    {{super()}}
+    {{moment.include_moment()}}
+{% endblock%}
+
+{%block content%}
+<nav class="navbar navbar-inverse navbar-fixedtop">
+        <div class="container-fluid">
+          <div class="navbar-header">
+            <a class="navbar-brand" href="#"> Jeremy's Website </a>
+          </div>
+          <ul class="nav navbar-nav">
+            <li class="active">
+            <li><a href={{url_for("home")}}> Home</a>
+          </li>
+            <li><a href={{url_for("profile_page")}}> You 
+            </a>
+          </li>
+          </ul>
+        </div>
+      </nav>
+
+{% for message in get_flashed_messages()%}
+<div class="alert alert-warning" >
+    <button type = "button" class="close" data-dismiss="alert">×</button>
+    {{message}}
+</div>
+<form>
+    <table>
+        <div class = "jumbotron text-center">
+            First name
+            <input type = "text" placeholder = {{first_name}} required>
+            <br>
+            Last name
+            <input type = "text" placeholder = {{last_name}} required>
+            <br>
+            Email : {{email}} (You cannot change your email.)
+            <br>
+            Password 
+            <input type = "password" placeholder = "Password" required>
+    </table>
+</form>
+</div>
+
+
+<div class="col-xs-2">
+    <form method="post" action="/logout">
+    <input type="submit" value="Logout" class="form-control">
+    <input type = "submit" value = "Update">
+    </form>
+ </div>
+
+{% endfor %}
+{%endblock%}
+

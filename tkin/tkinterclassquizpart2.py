@@ -9,7 +9,7 @@ class quiz():
         self.questions = {
             'If the zero of a polynomial function is 3-2i, then \
 what is for certain another answer to this function?':[['All of the \
-above','Its conjugate', '3+2i', '(6+3i)-(3+i)'],['All of the above']],
+below','Its conjugate', '3+2i', '(6+3i)-(3+i)'],['All of the below']],
 'Write reasons why the soul is not real. Explain in detail.': [[],['soul','real','a']],
 'Solve ln(e)':[['1', 'Undefined', 'e', 'I dont know'],['1']],
 'Say whether it is moral to have people own autonomous vehicles in the future or not.':

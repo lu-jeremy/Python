@@ -10,34 +10,48 @@ put a rectangle around moving object
 cap = cv2.VideoCapture(0)
 
 ret,frame = cap.read()
-
+frame = cv2.resize(frame,None,fx=0.25, fy=0.25, interpolation = cv2.INTER_CUBIC)
 ret,frame1 = cap.read()
-
+frame1 = cv2.resize(frame1,None,fx=0.25, fy=0.25, interpolation = cv2.INTER_CUBIC)
 ret,frame2 = cap.read()
+frame2 = cv2.resize(frame2,None,fx=0.25, fy=0.25, interpolation = cv2.INTER_CUBIC)
 while(True):
     ret, frame = cap.read()
     ret,frame1 = cap.read()
+    
+    frame = cv2.resize(frame,None,fx=0.25, fy=0.25, interpolation = cv2.INTER_CUBIC)
+
+    frame1 = cv2.resize(frame1,None,fx=0.25, fy=0.25, interpolation = cv2.INTER_CUBIC)
+
     # Our operations on the frame come here
     gray = cv2.cvtColor(frame, cv2.COLOR_BGR2GRAY)
+    ret, binary = cv2.threshold(gray,127,255,cv2.THRESH_BINARY)
     gray1 = cv2.cvtColor(frame1, cv2.COLOR_BGR2GRAY)
-    gray2 = cv2.cvtColor(frame2, cv2.COLOR_BGR2GRAY)
-    ret,gray2 = cv2.threshold (gray2, 127,255,cv2.THRESH_BINARY);
-
-    for height in range(720):
-        for width in range(1280):
-            if gray1[height][width]-gray[height][width] >= 20:
-                gray2[height][width] = gray1[height][width]-gray[height][width]
-            else:
-                gray2[height][width] = 0
+    ret, binary1 = cv2.threshold(gray1,127,255,cv2.THRESH_BINARY)
     
+    gray2 = cv2.cvtColor(frame2, cv2.COLOR_BGR2GRAY)
+    ret,binary2 = cv2.threshold(gray2, 127,255,cv2.THRESH_BINARY)
 
+
+    for height in range(180):
+        for width in range(320):
+            if binary1[height][width] != binary[height][width]:
+                binary2[height][width] = 1
+            else:
+                binary2[height][width] = 0
+                
+    
+    image, contours, hierarchy = cv2.findContours(binary,cv2.RETR_TREE,cv2.CHAIN_APPROX_SIMPLE)
+
+    cv2.drawContours(binary, contours, -1, (0,255,0), 3)
+    
     # Display the resulting frame
-    """
-    cv2.imshow('frame',gray)
+    
+    cv2.imshow('frame',binary)
 
-    cv2.imshow('frame1',gray1)
-    """
-    cv2.imshow('frame2',gray2)
+    cv2.imshow('frame1',binary1)
+    
+    cv2.imshow('frame2',binary2)
     if cv2.waitKey(1) & 0xFF == ord('q'):
         break
 
