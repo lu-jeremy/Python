@@ -1,3 +1,1 @@
 # Python
-
-# Noob stuff
