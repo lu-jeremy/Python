@@ -1,3 +1,1 @@
-# Python
-
-# Beginner Level
+# Python: Beginner Level
