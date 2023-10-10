@@ -1,3 +1,9 @@
-# Python: Beginner Level
+# Python: Beginner Steps
 
-The "2D shooter game" is the most recent game I have created with Python.
+## Unofficial repository for learning Python fundamentals
+* Variables, lists, list comprehension, loops, file I/O, OOP, logging, argparsing
+* Game creation with Pygame
+* Web applications/scraping
+* Tkinter
+* HTML/SQL
+  
